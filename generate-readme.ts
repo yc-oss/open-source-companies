@@ -39,7 +39,7 @@ for (const company of companies) {
     });
     const json = (await res.json()) as { organic: { link: string }[] };
     // Find the first GitHub repository https://github.com/{owner}/{github_repo}
-    const result = json.organic.find((result) =>
+    const result = json.organic?.find((result) =>
       result.link.includes("github.com")
     );
     if (result) {
