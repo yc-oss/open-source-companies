@@ -1,0 +1,516 @@
+{
+  "apollo": {
+    "url": "https://github.com/apollographql/apollo-client",
+    "github_repo": {}
+  },
+  "citus-data": {
+    "url": "https://github.com/citusdata/citus",
+    "github_repo": {}
+  },
+  "docker": {
+    "url": "https://github.com/docker/cli",
+    "github_repo": {}
+  },
+  "rethinkdb": {
+    "url": "https://github.com/rethinkdb/rethinkdb",
+    "github_repo": {}
+  },
+  "mattermost": {
+    "url": "https://github.com/mattermost/mattermost",
+    "github_repo": {}
+  },
+  "influxdata": {
+    "url": "https://github.com/influxdata/influxdb",
+    "github_repo": {}
+  },
+  "coreos": {},
+  "pipelinedb": {
+    "url": "https://github.com/pipelinedb/pipelinedb",
+    "github_repo": {}
+  },
+  "protocol-labs": {},
+  "sails-co": {
+    "url": "https://github.com/balderdashy/sails",
+    "github_repo": {}
+  },
+  "gitlab": {
+    "url": "https://github.com/gitlabhq/gitlabhq",
+    "github_repo": {}
+  },
+  "font-awesome": {
+    "url": "https://github.com/FortAwesome/Font-Awesome",
+    "github_repo": {
+      "stargazers_count": 73455,
+      "watchers_count": 73455,
+      "forks_count": 12188,
+      "open_issues_count": 4056,
+      "network_count": 12188,
+      "subscribers_count": 1356
+    }
+  },
+  "tipe": {},
+  "codestream": {},
+  "activeloop": {
+    "url": "https://github.com/activeloopai/deeplake",
+    "github_repo": {
+      "stargazers_count": 7990,
+      "watchers_count": 7990,
+      "forks_count": 608,
+      "open_issues_count": 72,
+      "network_count": 608,
+      "subscribers_count": 88
+    }
+  },
+  "optic": {},
+  "okteto": {
+    "url": "https://github.com/okteto/okteto",
+    "github_repo": {
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "network_count": 0,
+      "subscribers_count": 3
+    }
+  },
+  "lunasec": {},
+  "embrace": {
+    "url": "https://github.com/embrace-io/embrace-android-sdk",
+    "github_repo": {
+      "stargazers_count": 741,
+      "watchers_count": 741,
+      "forks_count": 226,
+      "open_issues_count": 142,
+      "network_count": 226,
+      "subscribers_count": 72
+    }
+  },
+  "asayer": {
+    "url": "https://github.com/openreplay/openreplay",
+    "github_repo": {
+      "stargazers_count": 9235,
+      "watchers_count": 9235,
+      "forks_count": 500,
+      "open_issues_count": 145,
+      "network_count": 500,
+      "subscribers_count": 79
+    }
+  },
+  "data-mechanics": {},
+  "wasmer": {
+    "url": "https://github.com/wasmerio/wasmer",
+    "github_repo": {
+      "stargazers_count": 353,
+      "watchers_count": 353,
+      "forks_count": 62,
+      "open_issues_count": 0,
+      "network_count": 62,
+      "subscribers_count": 7
+    }
+  },
+  "tensil": {
+    "url": "https://github.com/tensil-ai/tensil",
+    "github_repo": {
+      "stargazers_count": 21,
+      "watchers_count": 21,
+      "forks_count": 12,
+      "open_issues_count": 2,
+      "network_count": 12,
+      "subscribers_count": 5
+    }
+  },
+  "mindsdb": {
+    "url": "https://github.com/mindsdb/mindsdb",
+    "github_repo": {
+      "stargazers_count": 26050,
+      "watchers_count": 26050,
+      "forks_count": 4792,
+      "open_issues_count": 175,
+      "network_count": 4792,
+      "subscribers_count": 396
+    }
+  },
+  "openbase": {},
+  "posthog": {
+    "url": "https://github.com/PostHog/posthog",
+    "github_repo": {
+      "stargazers_count": 398,
+      "watchers_count": 398,
+      "forks_count": 400,
+      "open_issues_count": 460,
+      "network_count": 400,
+      "subscribers_count": 17
+    }
+  },
+  "airbyte": {
+    "url": "https://github.com/airbytehq/airbyte",
+    "github_repo": {
+      "stargazers_count": 15233,
+      "watchers_count": 15233,
+      "forks_count": 3925,
+      "open_issues_count": 1898,
+      "network_count": 3925,
+      "subscribers_count": 181
+    }
+  },
+  "supertokens": {
+    "url": "https://github.com/supertokens/supertokens-core",
+    "github_repo": {
+      "stargazers_count": 12495,
+      "watchers_count": 12495,
+      "forks_count": 485,
+      "open_issues_count": 128,
+      "network_count": 485,
+      "subscribers_count": 64
+    }
+  },
+  "hubble": {
+    "url": "https://github.com/lightdash/lightdash",
+    "github_repo": {
+      "stargazers_count": 3699,
+      "watchers_count": 3699,
+      "forks_count": 391,
+      "open_issues_count": 1023,
+      "network_count": 391,
+      "subscribers_count": 27
+    }
+  },
+  "shuttle": {
+    "url": "https://github.com/shuttle-hq/shuttle",
+    "github_repo": {
+      "stargazers_count": 5906,
+      "watchers_count": 5906,
+      "forks_count": 244,
+      "open_issues_count": 103,
+      "network_count": 244,
+      "subscribers_count": 23
+    }
+  },
+  "questdb": {
+    "url": "https://github.com/questdb/questdb",
+    "github_repo": {
+      "stargazers_count": 14226,
+      "watchers_count": 14226,
+      "forks_count": 1137,
+      "open_issues_count": 564,
+      "network_count": 1137,
+      "subscribers_count": 136
+    }
+  },
+  "monosi": {
+    "url": "https://github.com/monosidev/monosi",
+    "github_repo": {
+      "stargazers_count": 320,
+      "watchers_count": 320,
+      "forks_count": 31,
+      "open_issues_count": 30,
+      "network_count": 31,
+      "subscribers_count": 6
+    }
+  },
+  "keydb": {
+    "url": "https://github.com/Snapchat/KeyDB",
+    "github_repo": {
+      "stargazers_count": 11192,
+      "watchers_count": 11192,
+      "forks_count": 568,
+      "open_issues_count": 212,
+      "network_count": 568,
+      "subscribers_count": 155
+    }
+  },
+  "supabase": {
+    "url": "https://github.com/supabase/supabase",
+    "github_repo": {
+      "stargazers_count": 1,
+      "watchers_count": 1,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "network_count": 1,
+      "subscribers_count": 9
+    }
+  },
+  "mito": {},
+  "webiny": {
+    "url": "https://github.com/webiny/webiny-js",
+    "github_repo": {}
+  },
+  "authzed": {
+    "url": "https://github.com/authzed/spicedb",
+    "github_repo": {}
+  },
+  "signoz": {
+    "url": "https://github.com/SigNoz/signoz",
+    "github_repo": {}
+  },
+  "laudspeaker": {
+    "url": "https://github.com/laudspeaker/laudspeaker",
+    "github_repo": {}
+  },
+  "sst": {
+    "url": "https://github.com/sst/sst",
+    "github_repo": {}
+  },
+  "pyroscope": {
+    "url": "https://github.com/grafana/pyroscope",
+    "github_repo": {}
+  },
+  "lunatic": {},
+  "vue-storefront": {
+    "url": "https://github.com/vuestorefront/vue-storefront",
+    "github_repo": {}
+  },
+  "chatwoot": {
+    "url": "https://github.com/chatwoot/chatwoot",
+    "github_repo": {}
+  },
+  "infracost": {
+    "url": "https://github.com/infracost/infracost-azure-devops",
+    "github_repo": {}
+  },
+  "svix": {
+    "url": "https://github.com/svix/svix-webhooks",
+    "github_repo": {}
+  },
+  "wasp": {},
+  "ollama": {
+    "url": "https://github.com/ollama/ollama",
+    "github_repo": {}
+  },
+  "artillery": {},
+  "lago": {
+    "url": "https://github.com/getlago/lago",
+    "github_repo": {}
+  },
+  "metlo": {
+    "url": "https://github.com/metlo-labs/metlo",
+    "github_repo": {}
+  },
+  "enso": {
+    "url": "https://github.com/enso-org/hiring",
+    "github_repo": {}
+  },
+  "evidently-ai": {
+    "url": "https://github.com/evidentlyai/evidently",
+    "github_repo": {}
+  },
+  "warrant": {
+    "url": "https://github.com/warrant-dev/warrant",
+    "github_repo": {}
+  },
+  "bloop": {},
+  "growthbook": {
+    "url": "https://github.com/growthbook/growthbook",
+    "github_repo": {}
+  },
+  "elementary": {
+    "url": "https://github.com/elementary-data/elementary",
+    "github_repo": {}
+  },
+  "firezone": {
+    "url": "https://github.com/firezone/firezone",
+    "github_repo": {}
+  },
+  "beam": {},
+  "requestly": {
+    "url": "https://github.com/requestly/requestly",
+    "github_repo": {}
+  },
+  "convoy-2": {
+    "url": "https://github.com/frain-dev/convoy",
+    "github_repo": {}
+  },
+  "hydra": {},
+  "netmaker": {},
+  "medplum": {
+    "url": "https://github.com/medplum/medplum",
+    "github_repo": {}
+  },
+  "hyperdx": {
+    "url": "https://github.com/hyperdxio/hyperdx",
+    "github_repo": {}
+  },
+  "stackup": {},
+  "dittofeed": {
+    "url": "https://github.com/dittofeed/dittofeed",
+    "github_repo": {}
+  },
+  "ballerine": {
+    "url": "https://github.com/ballerine-io/ballerine",
+    "github_repo": {}
+  },
+  "activepieces": {
+    "url": "https://github.com/activepieces/activepieces",
+    "github_repo": {}
+  },
+  "windmill": {
+    "url": "https://github.com/windmill-labs/windmill",
+    "github_repo": {}
+  },
+  "payload": {
+    "url": "https://github.com/payloadcms/website",
+    "github_repo": {}
+  },
+  "mintplex-labs": {},
+  "grai": {
+    "url": "https://github.com/grai-io/grai-core",
+    "github_repo": {}
+  },
+  "lotus": {
+    "url": "https://github.com/uselotus/lotus",
+    "github_repo": {}
+  },
+  "infisical": {
+    "url": "https://github.com/Infisical/infisical",
+    "github_repo": {}
+  },
+  "reflex": {
+    "url": "https://github.com/reflex-dev/reflex",
+    "github_repo": {}
+  },
+  "matano": {},
+  "traceloop": {
+    "url": "https://github.com/traceloop/openllmetry",
+    "github_repo": {}
+  },
+  "trigger-dev": {
+    "url": "https://github.com/triggerdotdev/trigger.dev",
+    "github_repo": {}
+  },
+  "nango": {
+    "url": "https://github.com/NangoHQ/nango",
+    "github_repo": {}
+  },
+  "frigade": {},
+  "langfuse": {
+    "url": "https://github.com/langfuse/langfuse",
+    "github_repo": {}
+  },
+  "tableflow": {
+    "url": "https://github.com/tableflowhq/csv-import",
+    "github_repo": {}
+  },
+  "helicone": {
+    "url": "https://github.com/Helicone/helicone",
+    "github_repo": {}
+  },
+  "defog-ai": {},
+  "noya-software": {},
+  "uptrain-ai": {},
+  "arroyo": {
+    "url": "https://github.com/ArroyoSystems/arroyo",
+    "github_repo": {}
+  },
+  "keep": {
+    "url": "https://github.com/keephq/keep",
+    "github_repo": {}
+  },
+  "dagworks-inc": {},
+  "rivet": {
+    "url": "https://github.com/rivet-gg/opengb",
+    "github_repo": {}
+  },
+  "common-paper": {},
+  "evefan": {
+    "url": "https://github.com/evefancom/evefan",
+    "github_repo": {}
+  },
+  "fern": {
+    "url": "https://github.com/fern-api/fern",
+    "github_repo": {}
+  },
+  "vocode": {
+    "url": "https://github.com/vocodedev/vocode-core",
+    "github_repo": {}
+  },
+  "highlight-io": {},
+  "moonrepo": {},
+  "artie": {},
+  "peerdb": {},
+  "reworkd": {},
+  "twenty": {
+    "url": "https://github.com/twentyhq/twenty",
+    "github_repo": {}
+  },
+  "skyvern": {
+    "url": "https://github.com/Skyvern-AI/skyvern",
+    "github_repo": {}
+  },
+  "refine": {
+    "url": "https://github.com/refinedev/refine",
+    "github_repo": {}
+  },
+  "revideo": {
+    "url": "https://github.com/redotvideo/revideo",
+    "github_repo": {}
+  },
+  "continue": {
+    "url": "https://github.com/continuedev/continue",
+    "github_repo": {}
+  },
+  "khoj": {
+    "url": "https://github.com/khoj-ai/khoj",
+    "github_repo": {}
+  },
+  "recipeui": {},
+  "paradedb": {
+    "url": "https://github.com/paradedb/paradedb",
+    "github_repo": {}
+  },
+  "flowiseai": {
+    "url": "https://github.com/FlowiseAI/Flowise",
+    "github_repo": {}
+  },
+  "srcbook": {
+    "url": "https://github.com/srcbookdev/srcbook",
+    "github_repo": {}
+  },
+  "lantern-2": {
+    "url": "https://github.com/lanterndata/lantern",
+    "github_repo": {}
+  },
+  "ssoready": {
+    "url": "https://github.com/ssoready/ssoready",
+    "github_repo": {}
+  },
+  "openpipe": {
+    "url": "https://github.com/OpenPipe/OpenPipe",
+    "github_repo": {}
+  },
+  "pretzel-ai": {
+    "url": "https://github.com/pretzelai/pretzelai",
+    "github_repo": {}
+  },
+  "ncompass-technologies": {},
+  "ragas": {},
+  "superagent": {},
+  "trieve": {
+    "url": "https://github.com/devflowinc/trieve",
+    "github_repo": {}
+  },
+  "overeasy": {},
+  "hatchet-2": {
+    "url": "https://github.com/hatchet-dev/hatchet",
+    "github_repo": {}
+  },
+  "ocular-ai": {
+    "url": "https://github.com/OcularEngineering/ocular",
+    "github_repo": {}
+  },
+  "openfoundry": {},
+  "million": {
+    "url": "https://github.com/aidenybai/million",
+    "github_repo": {}
+  },
+  "glasskube": {
+    "url": "https://github.com/glasskube/glasskube",
+    "github_repo": {}
+  },
+  "stack-auth": {
+    "url": "https://github.com/stack-auth/stack",
+    "github_repo": {}
+  },
+  "panora": {},
+  "ionworks": {},
+  "patched": {}
+}

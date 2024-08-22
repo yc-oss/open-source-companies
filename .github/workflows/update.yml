@@ -22,7 +22,10 @@ jobs:
           deno-version: v1.x
 
       - name: Run fetcher script
-        run: deno run --allow-net --allow-read --allow-write generate-readme.ts
+        run: deno run --allow-net --allow-env --allow-read --allow-write generate-readme.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SERPER_TOKEN: ${{ secrets.SERPER_TOKEN }}
 
       - name: Format README.md
         run: deno fmt README.md
