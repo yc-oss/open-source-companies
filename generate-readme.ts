@@ -92,7 +92,17 @@ for (const company of companies) {
   }
 }
 
-for (const company of companies) {
+for (const company of companies.sort((a, b) => {
+  const aRepo = repositories[a.slug];
+  const bRepo = repositories[b.slug];
+  if (aRepo && bRepo)
+    return (
+      (bRepo.github_repo?.stargazers_count ?? 0) -
+      (aRepo.github_repo?.stargazers_count ?? 0)
+    );
+
+  return a.name.localeCompare(b.name);
+})) {
   const repository = repositories[company.slug];
   text += `| <img alt="" src="${
     company.small_logo_thumb_url
@@ -102,8 +112,9 @@ for (const company of companies) {
     repository?.url
       ? `[${new URL(repository.url).pathname}](${repository.url})`
       : ""
-  } | ${repository?.github_repo?.stargazers_count ?? ""} \n`;
-  text += `<!--end generated readme-->\n`;
+  } | ${
+    repository?.github_repo?.stargazers_count?.toLocaleString("en-US") ?? ""
+  } \n`;
 }
 
 const newReadme = readme.replace(
