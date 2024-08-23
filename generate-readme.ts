@@ -53,10 +53,6 @@ for (const company of companies) {
           `Added ${repositories[company.slug].url} to repositories.json`
         );
         repository = repositories[company.slug];
-        await Deno.writeTextFile(
-          "repositories.json",
-          JSON.stringify(repositories, null, 2) + "\n"
-        );
       } else console.log(`Parts ${parts} for URL ${result.link}`);
     }
   }
@@ -85,24 +81,12 @@ for (const company of companies) {
       },
     };
     repository = repositories[company.slug];
-    await Deno.writeTextFile(
-      "repositories.json",
-      JSON.stringify(repositories, null, 2) + "\n"
-    );
   }
+
+  company.stars_count = repository?.github_repo?.stargazers_count ?? 0;
 }
 
-for (const company of companies.sort((a, b) => {
-  const aRepo = repositories[a.slug];
-  const bRepo = repositories[b.slug];
-  if (aRepo && bRepo)
-    return (
-      (bRepo.github_repo?.stargazers_count ?? 0) -
-      (aRepo.github_repo?.stargazers_count ?? 0)
-    );
-
-  return a.name.localeCompare(b.name);
-})) {
+for (const company of companies.sort((a, b) => b.stars_count - a.stars_count)) {
   const repository = repositories[company.slug];
   text += `| <img alt="" src="${
     company.small_logo_thumb_url
