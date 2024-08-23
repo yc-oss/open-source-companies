@@ -600,7 +600,7 @@
     }
   },
   "payload": {
-    "url": "https://github.com/payloadcms/website",
+    "url": "https://github.com/payloadcms/payload",
     "github_repo": {
       "stargazers_count": 339,
       "watchers_count": 339,
@@ -655,7 +655,9 @@
       "subscribers_count": 145
     }
   },
-  "matano": {},
+  "matano": {
+    "url": "https://github.com/matanolabs/matano"
+  },
   "traceloop": {
     "url": "https://github.com/traceloop/openllmetry",
     "github_repo": {
@@ -723,9 +725,15 @@
       "subscribers_count": 6
     }
   },
-  "defog-ai": {},
-  "noya-software": {},
-  "uptrain-ai": {},
+  "defog-ai": {
+    "url": "https://github.com/defog-ai/sqlcoder"
+  },
+  "noya-software": {
+    "url": "https://github.com/noya-app/noya"
+  },
+  "uptrain-ai": {
+    "url": "https://github.com/uptrain-ai/uptrain"
+  },
   "arroyo": {
     "url": "https://github.com/ArroyoSystems/arroyo",
     "github_repo": {
@@ -748,9 +756,11 @@
       "subscribers_count": 18
     }
   },
-  "dagworks-inc": {},
+  "dagworks-inc": {
+    "url": "https://github.com/DAGWorks-Inc/hamilton"
+  },
   "rivet": {
-    "url": "https://github.com/rivet-gg/opengb",
+    "url": "https://github.com/rivet-gg/rivet",
     "github_repo": {
       "stargazers_count": 99,
       "watchers_count": 99,
@@ -760,7 +770,9 @@
       "subscribers_count": 2
     }
   },
-  "common-paper": {},
+  "common-paper": {
+    "url": "https://github.com/CommonPaper/Mutual-NDA"
+  },
   "evefan": {
     "url": "https://github.com/evefancom/evefan",
     "github_repo": {
@@ -794,11 +806,21 @@
       "subscribers_count": 47
     }
   },
-  "highlight-io": {},
-  "moonrepo": {},
-  "artie": {},
-  "peerdb": {},
-  "reworkd": {},
+  "highlight-io": {
+    "url": "https://github.com/highlight/highlight"
+  },
+  "moonrepo": {
+    "url": "https://github.com/moonrepo/moon"
+  },
+  "artie": {
+    "url": "https://github.com/artie-labs/transfer"
+  },
+  "peerdb": {
+    "url": "https://github.com/PeerDB-io/peerdb"
+  },
+  "reworkd": {
+    "url": "https://github.com/reworkd/AgentGPT"
+  },
   "twenty": {
     "url": "https://github.com/twentyhq/twenty",
     "github_repo": {
@@ -865,7 +887,9 @@
       "subscribers_count": 66
     }
   },
-  "recipeui": {},
+  "recipeui": {
+    "url": "https://github.com/RecipeUI/RecipeUI"
+  },
   "paradedb": {
     "url": "https://github.com/paradedb/paradedb",
     "github_repo": {
@@ -943,9 +967,15 @@
       "subscribers_count": 9
     }
   },
-  "ncompass-technologies": {},
-  "ragas": {},
-  "superagent": {},
+  "ncompass-technologies": {
+    "url": "https://github.com/nCompass-tech/nCompass"
+  },
+  "ragas": {
+    "url": "https://github.com/explodinggradients/ragas"
+  },
+  "superagent": {
+    "url": "https://github.com/superagent-ai/superagent"
+  },
   "trieve": {
     "url": "https://github.com/devflowinc/trieve",
     "github_repo": {
@@ -957,7 +987,9 @@
       "subscribers_count": 10
     }
   },
-  "overeasy": {},
+  "overeasy": {
+    "url": "https://github.com/overeasy-sh/overeasy"
+  },
   "hatchet-2": {
     "url": "https://github.com/hatchet-dev/hatchet",
     "github_repo": {
@@ -980,7 +1012,9 @@
       "subscribers_count": 4
     }
   },
-  "openfoundry": {},
+  "openfoundry": {
+    "url": "https://github.com/openfoundry-ai/model_manager"
+  },
   "million": {
     "url": "https://github.com/aidenybai/million",
     "github_repo": {
@@ -1014,7 +1048,13 @@
       "subscribers_count": 9
     }
   },
-  "panora": {},
-  "ionworks": {},
-  "patched": {}
+  "panora": {
+    "url": "https://github.com/panoratech/panora"
+  },
+  "ionworks": {
+    "url": "https://github.com/ionworks/how-to-debug-your-battery"
+  },
+  "patched": {
+    "url": "https://github.com/patched-codes/patchwork"
+  }
 }

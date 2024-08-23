@@ -22,8 +22,9 @@ let text = `<!--start generated readme-->\n`;
 text += `| Logo | Company | Batch | API | Website | Repo | Stars |\n| --------------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |\n`;
 for (const company of companies) {
   let repository = repositories[company.slug];
+
   // Try and find the GitHub repository for this company
-  if (!repository) {
+  if (!repository && Deno.env.get("GITHUB_TOKEN")) {
     console.log(`Searching for ${company.name} on GitHub via Google`);
     // Search Google for the company name and short bio
     const res = await fetch("https://google.serper.dev/search", {
@@ -58,7 +59,7 @@ for (const company of companies) {
   }
 
   // Find counts for repository if it exists
-  if (repository && repository.url) {
+  if (repository && repository.url && Deno.env.get("GITHUB_TOKEN")) {
     console.log(
       `Fetching GitHub repo details for https://api.github.com/repos${
         new URL(repository.url).pathname
@@ -86,25 +87,38 @@ for (const company of companies) {
   company.stars_count = repository?.github_repo?.stargazers_count ?? 0;
 }
 
-for (const company of companies.sort((a, b) => b.stars_count - a.stars_count)) {
+for (const company of companies.sort((a, b) => {
+  if (a.stars_count === b.stars_count) return a.name.localeCompare(b.name);
+  return b.stars_count - a.stars_count;
+})) {
   const repository = repositories[company.slug];
-  text += `| <img alt="" src="${
-    company.small_logo_thumb_url
-  }" width="32" height="32"> | ${company.name} | ${company.batch} | [API](${
-    company.api
-  }) | [Website](${company.website}) | ${
+  text += `| <img alt="" src="${company.small_logo_thumb_url}" height="32"> | ${
+    company.name
+  } | ${company.batch} | [API](${company.api}) | [Website](${
+    company.website
+  }) | ${
     repository?.url
-      ? `[${new URL(repository.url).pathname}](${repository.url})`
+      ? `[${new URL(repository.url).pathname.replace("/", "")}](${
+          repository.url
+        })`
       : ""
   } | ${
-    repository?.github_repo?.stargazers_count?.toLocaleString("en-US") ?? ""
+    repository?.github_repo?.stargazers_count && repository.url
+      ? `${repository.github_repo.stargazers_count.toLocaleString(
+          "en-US"
+        )} <img alt="" src="https://api.star-history.com/svg?repos=${new URL(
+          repository.url
+        ).pathname.replace("/", "")})" height="32">`
+      : ""
   } \n`;
 }
+text += `<!--end generated readme-->\n`;
 
-const newReadme = readme.replace(
-  /<!--start generated readme-->[\s\S]*<!--end generated readme-->/g,
-  text
-);
+const newReadme =
+  readme.split("<!--start generated readme-->")[0] +
+  text +
+  readme.split("<!--end generated readme-->")[1];
+
 await Deno.writeTextFile("README.md", newReadme);
 await Deno.writeTextFile(
   "repositories.json",
