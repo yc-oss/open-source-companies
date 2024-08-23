@@ -108,7 +108,7 @@ for (const company of companies.sort((a, b) => {
           "en-US"
         )} <img alt="" src="https://api.star-history.com/svg?repos=${new URL(
           repository.url
-        ).pathname.replace("/", "")})" height="32">`
+        ).pathname.replace("/", "")}" height="32">`
       : ""
   } \n`;
 }
