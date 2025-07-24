@@ -2,10 +2,10 @@
   "apollo": {
     "url": "https://github.com/apollographql/apollo-client",
     "github_repo": {
-      "stargazers_count": 19600,
-      "watchers_count": 19600,
+      "stargazers_count": 19602,
+      "watchers_count": 19602,
       "forks_count": 2687,
-      "open_issues_count": 511,
+      "open_issues_count": 510,
       "network_count": 2687,
       "subscribers_count": 270
     }
@@ -13,10 +13,10 @@
   "citus-data": {
     "url": "https://github.com/citusdata/citus",
     "github_repo": {
-      "stargazers_count": 11618,
-      "watchers_count": 11618,
+      "stargazers_count": 11620,
+      "watchers_count": 11620,
       "forks_count": 719,
-      "open_issues_count": 1061,
+      "open_issues_count": 1057,
       "network_count": 719,
       "subscribers_count": 219
     }
@@ -24,19 +24,19 @@
   "docker": {
     "url": "https://github.com/docker/cli",
     "github_repo": {
-      "stargazers_count": 5350,
-      "watchers_count": 5350,
-      "forks_count": 2020,
-      "open_issues_count": 801,
-      "network_count": 2020,
+      "stargazers_count": 5355,
+      "watchers_count": 5355,
+      "forks_count": 2021,
+      "open_issues_count": 807,
+      "network_count": 2021,
       "subscribers_count": 132
     }
   },
   "rethinkdb": {
     "url": "https://github.com/rethinkdb/rethinkdb",
     "github_repo": {
-      "stargazers_count": 26909,
-      "watchers_count": 26909,
+      "stargazers_count": 26910,
+      "watchers_count": 26910,
       "forks_count": 1851,
       "open_issues_count": 1354,
       "network_count": 1851,
@@ -46,22 +46,22 @@
   "mattermost": {
     "url": "https://github.com/mattermost/mattermost",
     "github_repo": {
-      "stargazers_count": 33174,
-      "watchers_count": 33174,
-      "forks_count": 7861,
-      "open_issues_count": 945,
-      "network_count": 7861,
+      "stargazers_count": 33183,
+      "watchers_count": 33183,
+      "forks_count": 7866,
+      "open_issues_count": 949,
+      "network_count": 7866,
       "subscribers_count": 543
     }
   },
   "influxdata": {
     "url": "https://github.com/influxdata/influxdb",
     "github_repo": {
-      "stargazers_count": 30357,
-      "watchers_count": 30357,
-      "forks_count": 3631,
-      "open_issues_count": 2120,
-      "network_count": 3631,
+      "stargazers_count": 30367,
+      "watchers_count": 30367,
+      "forks_count": 3632,
+      "open_issues_count": 2123,
+      "network_count": 3632,
       "subscribers_count": 722
     }
   },
@@ -69,20 +69,20 @@
   "pipelinedb": {
     "url": "https://github.com/pipelinedb/pipelinedb",
     "github_repo": {
-      "stargazers_count": 2647,
-      "watchers_count": 2647,
+      "stargazers_count": 2648,
+      "watchers_count": 2648,
       "forks_count": 243,
       "open_issues_count": 135,
       "network_count": 243,
-      "subscribers_count": 105
+      "subscribers_count": 104
     }
   },
   "protocol-labs": {},
   "sails-co": {
     "url": "https://github.com/balderdashy/sails",
     "github_repo": {
-      "stargazers_count": 22859,
-      "watchers_count": 22859,
+      "stargazers_count": 22860,
+      "watchers_count": 22860,
       "forks_count": 1938,
       "open_issues_count": 589,
       "network_count": 1938,
@@ -94,21 +94,21 @@
     "github_repo": {
       "stargazers_count": 24034,
       "watchers_count": 24034,
-      "forks_count": 5757,
+      "forks_count": 5758,
       "open_issues_count": 36,
-      "network_count": 5757,
+      "network_count": 5758,
       "subscribers_count": 955
     }
   },
   "font-awesome": {
     "url": "https://github.com/FortAwesome/Font-Awesome",
     "github_repo": {
-      "stargazers_count": 75470,
-      "watchers_count": 75470,
-      "forks_count": 12208,
-      "open_issues_count": 4045,
-      "network_count": 12208,
-      "subscribers_count": 1351
+      "stargazers_count": 75481,
+      "watchers_count": 75481,
+      "forks_count": 12207,
+      "open_issues_count": 4050,
+      "network_count": 12207,
+      "subscribers_count": 1352
     }
   },
   "tipe": {},
@@ -116,11 +116,11 @@
   "activeloop": {
     "url": "https://github.com/activeloopai/deeplake",
     "github_repo": {
-      "stargazers_count": 8731,
-      "watchers_count": 8731,
-      "forks_count": 670,
+      "stargazers_count": 8732,
+      "watchers_count": 8732,
+      "forks_count": 669,
       "open_issues_count": 60,
-      "network_count": 670,
+      "network_count": 669,
       "subscribers_count": 95
     }
   },
@@ -128,10 +128,10 @@
   "okteto": {
     "url": "https://github.com/okteto/okteto",
     "github_repo": {
-      "stargazers_count": 3417,
-      "watchers_count": 3417,
+      "stargazers_count": 3419,
+      "watchers_count": 3419,
       "forks_count": 313,
-      "open_issues_count": 42,
+      "open_issues_count": 43,
       "network_count": 313,
       "subscribers_count": 38
     }
@@ -143,7 +143,7 @@
       "stargazers_count": 158,
       "watchers_count": 158,
       "forks_count": 17,
-      "open_issues_count": 12,
+      "open_issues_count": 13,
       "network_count": 17,
       "subscribers_count": 11
     }
@@ -151,10 +151,10 @@
   "asayer": {
     "url": "https://github.com/openreplay/openreplay",
     "github_repo": {
-      "stargazers_count": 10641,
-      "watchers_count": 10641,
+      "stargazers_count": 10643,
+      "watchers_count": 10643,
       "forks_count": 603,
-      "open_issues_count": 156,
+      "open_issues_count": 158,
       "network_count": 603,
       "subscribers_count": 77
     }
@@ -163,11 +163,11 @@
   "wasmer": {
     "url": "https://github.com/wasmerio/wasmer",
     "github_repo": {
-      "stargazers_count": 19909,
-      "watchers_count": 19909,
-      "forks_count": 902,
-      "open_issues_count": 236,
-      "network_count": 902,
+      "stargazers_count": 19910,
+      "watchers_count": 19910,
+      "forks_count": 901,
+      "open_issues_count": 233,
+      "network_count": 901,
       "subscribers_count": 202
     }
   },
@@ -185,11 +185,11 @@
   "mindsdb": {
     "url": "https://github.com/mindsdb/mindsdb",
     "github_repo": {
-      "stargazers_count": 34736,
-      "watchers_count": 34736,
-      "forks_count": 5588,
-      "open_issues_count": 115,
-      "network_count": 5588,
+      "stargazers_count": 34756,
+      "watchers_count": 34756,
+      "forks_count": 5591,
+      "open_issues_count": 116,
+      "network_count": 5591,
       "subscribers_count": 425
     }
   },
@@ -197,32 +197,32 @@
   "posthog": {
     "url": "https://github.com/PostHog/posthog",
     "github_repo": {
-      "stargazers_count": 27903,
-      "watchers_count": 27903,
-      "forks_count": 1801,
-      "open_issues_count": 2215,
-      "network_count": 1801,
+      "stargazers_count": 27926,
+      "watchers_count": 27926,
+      "forks_count": 1802,
+      "open_issues_count": 2220,
+      "network_count": 1802,
       "subscribers_count": 115
     }
   },
   "airbyte": {
     "url": "https://github.com/airbytehq/airbyte",
     "github_repo": {
-      "stargazers_count": 18934,
-      "watchers_count": 18934,
-      "forks_count": 4666,
-      "open_issues_count": 1949,
-      "network_count": 4666,
+      "stargazers_count": 18941,
+      "watchers_count": 18941,
+      "forks_count": 4671,
+      "open_issues_count": 1955,
+      "network_count": 4671,
       "subscribers_count": 185
     }
   },
   "supertokens": {
     "url": "https://github.com/supertokens/supertokens-core",
     "github_repo": {
-      "stargazers_count": 14308,
-      "watchers_count": 14308,
+      "stargazers_count": 14316,
+      "watchers_count": 14316,
       "forks_count": 587,
-      "open_issues_count": 144,
+      "open_issues_count": 143,
       "network_count": 587,
       "subscribers_count": 65
     }
@@ -230,10 +230,10 @@
   "hubble": {
     "url": "https://github.com/lightdash/lightdash",
     "github_repo": {
-      "stargazers_count": 4910,
-      "watchers_count": 4910,
+      "stargazers_count": 4911,
+      "watchers_count": 4911,
       "forks_count": 581,
-      "open_issues_count": 1630,
+      "open_issues_count": 1623,
       "network_count": 581,
       "subscribers_count": 33
     }
@@ -241,8 +241,8 @@
   "shuttle": {
     "url": "https://github.com/shuttle-hq/shuttle",
     "github_repo": {
-      "stargazers_count": 6584,
-      "watchers_count": 6584,
+      "stargazers_count": 6585,
+      "watchers_count": 6585,
       "forks_count": 274,
       "open_issues_count": 77,
       "network_count": 274,
@@ -252,11 +252,11 @@
   "questdb": {
     "url": "https://github.com/questdb/questdb",
     "github_repo": {
-      "stargazers_count": 15860,
-      "watchers_count": 15860,
-      "forks_count": 1451,
-      "open_issues_count": 727,
-      "network_count": 1451,
+      "stargazers_count": 15866,
+      "watchers_count": 15866,
+      "forks_count": 1453,
+      "open_issues_count": 725,
+      "network_count": 1453,
       "subscribers_count": 135
     }
   },
@@ -274,8 +274,8 @@
   "keydb": {
     "url": "https://github.com/Snapchat/KeyDB",
     "github_repo": {
-      "stargazers_count": 12066,
-      "watchers_count": 12066,
+      "stargazers_count": 12067,
+      "watchers_count": 12067,
       "forks_count": 605,
       "open_issues_count": 256,
       "network_count": 605,
@@ -285,31 +285,31 @@
   "supabase": {
     "url": "https://github.com/supabase/supabase",
     "github_repo": {
-      "stargazers_count": 85995,
-      "watchers_count": 85995,
-      "forks_count": 9283,
-      "open_issues_count": 733,
-      "network_count": 9283,
-      "subscribers_count": 585
+      "stargazers_count": 86059,
+      "watchers_count": 86059,
+      "forks_count": 9298,
+      "open_issues_count": 741,
+      "network_count": 9298,
+      "subscribers_count": 586
     }
   },
   "mito": {},
   "webiny": {
     "url": "https://github.com/webiny/webiny-js",
     "github_repo": {
-      "stargazers_count": 7627,
-      "watchers_count": 7627,
-      "forks_count": 633,
+      "stargazers_count": 7631,
+      "watchers_count": 7631,
+      "forks_count": 634,
       "open_issues_count": 348,
-      "network_count": 633,
+      "network_count": 634,
       "subscribers_count": 71
     }
   },
   "authzed": {
     "url": "https://github.com/authzed/spicedb",
     "github_repo": {
-      "stargazers_count": 5874,
-      "watchers_count": 5874,
+      "stargazers_count": 5877,
+      "watchers_count": 5877,
       "forks_count": 331,
       "open_issues_count": 110,
       "network_count": 331,
@@ -319,44 +319,44 @@
   "signoz": {
     "url": "https://github.com/SigNoz/signoz",
     "github_repo": {
-      "stargazers_count": 22863,
-      "watchers_count": 22863,
-      "forks_count": 1630,
-      "open_issues_count": 1518,
-      "network_count": 1630,
+      "stargazers_count": 22883,
+      "watchers_count": 22883,
+      "forks_count": 1631,
+      "open_issues_count": 1516,
+      "network_count": 1631,
       "subscribers_count": 121
     }
   },
   "laudspeaker": {
     "url": "https://github.com/laudspeaker/laudspeaker",
     "github_repo": {
-      "stargazers_count": 2400,
-      "watchers_count": 2400,
-      "forks_count": 180,
+      "stargazers_count": 2401,
+      "watchers_count": 2401,
+      "forks_count": 181,
       "open_issues_count": 33,
-      "network_count": 180,
+      "network_count": 181,
       "subscribers_count": 21
     }
   },
   "sst": {
     "url": "https://github.com/sst/sst",
     "github_repo": {
-      "stargazers_count": 24150,
-      "watchers_count": 24150,
-      "forks_count": 1869,
-      "open_issues_count": 699,
-      "network_count": 1869,
+      "stargazers_count": 24160,
+      "watchers_count": 24160,
+      "forks_count": 1868,
+      "open_issues_count": 701,
+      "network_count": 1868,
       "subscribers_count": 304
     }
   },
   "pyroscope": {
     "url": "https://github.com/grafana/pyroscope",
     "github_repo": {
-      "stargazers_count": 10737,
-      "watchers_count": 10737,
-      "forks_count": 660,
-      "open_issues_count": 338,
-      "network_count": 660,
+      "stargazers_count": 10739,
+      "watchers_count": 10739,
+      "forks_count": 661,
+      "open_issues_count": 340,
+      "network_count": 661,
       "subscribers_count": 95
     }
   },
@@ -375,11 +375,11 @@
   "chatwoot": {
     "url": "https://github.com/chatwoot/chatwoot",
     "github_repo": {
-      "stargazers_count": 24597,
-      "watchers_count": 24597,
-      "forks_count": 4933,
-      "open_issues_count": 995,
-      "network_count": 4933,
+      "stargazers_count": 24612,
+      "watchers_count": 24612,
+      "forks_count": 4951,
+      "open_issues_count": 1000,
+      "network_count": 4951,
       "subscribers_count": 251
     }
   },
@@ -397,8 +397,8 @@
   "svix": {
     "url": "https://github.com/svix/svix-webhooks",
     "github_repo": {
-      "stargazers_count": 2804,
-      "watchers_count": 2804,
+      "stargazers_count": 2805,
+      "watchers_count": 2805,
       "forks_count": 199,
       "open_issues_count": 50,
       "network_count": 199,
@@ -409,11 +409,11 @@
   "ollama": {
     "url": "https://github.com/ollama/ollama",
     "github_repo": {
-      "stargazers_count": 147238,
-      "watchers_count": 147238,
-      "forks_count": 12481,
-      "open_issues_count": 1926,
-      "network_count": 12481,
+      "stargazers_count": 147336,
+      "watchers_count": 147336,
+      "forks_count": 12486,
+      "open_issues_count": 1927,
+      "network_count": 12486,
       "subscribers_count": 841
     }
   },
@@ -421,8 +421,8 @@
   "lago": {
     "url": "https://github.com/getlago/lago",
     "github_repo": {
-      "stargazers_count": 7947,
-      "watchers_count": 7947,
+      "stargazers_count": 7953,
+      "watchers_count": 7953,
       "forks_count": 410,
       "open_issues_count": 15,
       "network_count": 410,
@@ -454,10 +454,10 @@
   "evidently-ai": {
     "url": "https://github.com/evidentlyai/evidently",
     "github_repo": {
-      "stargazers_count": 6426,
-      "watchers_count": 6426,
+      "stargazers_count": 6430,
+      "watchers_count": 6430,
       "forks_count": 702,
-      "open_issues_count": 219,
+      "open_issues_count": 221,
       "network_count": 702,
       "subscribers_count": 49
     }
@@ -477,10 +477,10 @@
   "growthbook": {
     "url": "https://github.com/growthbook/growthbook",
     "github_repo": {
-      "stargazers_count": 6713,
-      "watchers_count": 6713,
+      "stargazers_count": 6715,
+      "watchers_count": 6715,
       "forks_count": 579,
-      "open_issues_count": 663,
+      "open_issues_count": 662,
       "network_count": 579,
       "subscribers_count": 31
     }
@@ -499,10 +499,10 @@
   "firezone": {
     "url": "https://github.com/firezone/firezone",
     "github_repo": {
-      "stargazers_count": 7419,
-      "watchers_count": 7419,
+      "stargazers_count": 7422,
+      "watchers_count": 7422,
       "forks_count": 325,
-      "open_issues_count": 438,
+      "open_issues_count": 443,
       "network_count": 325,
       "subscribers_count": 41
     }
@@ -511,10 +511,10 @@
   "requestly": {
     "url": "https://github.com/requestly/requestly",
     "github_repo": {
-      "stargazers_count": 3592,
-      "watchers_count": 3592,
+      "stargazers_count": 3593,
+      "watchers_count": 3593,
       "forks_count": 308,
-      "open_issues_count": 193,
+      "open_issues_count": 195,
       "network_count": 308,
       "subscribers_count": 27
     }
@@ -522,10 +522,10 @@
   "convoy-2": {
     "url": "https://github.com/frain-dev/convoy",
     "github_repo": {
-      "stargazers_count": 2651,
-      "watchers_count": 2651,
+      "stargazers_count": 2650,
+      "watchers_count": 2650,
       "forks_count": 158,
-      "open_issues_count": 52,
+      "open_issues_count": 46,
       "network_count": 158,
       "subscribers_count": 24
     }
@@ -535,22 +535,22 @@
   "medplum": {
     "url": "https://github.com/medplum/medplum",
     "github_repo": {
-      "stargazers_count": 1700,
-      "watchers_count": 1700,
-      "forks_count": 514,
-      "open_issues_count": 502,
-      "network_count": 514,
+      "stargazers_count": 1702,
+      "watchers_count": 1702,
+      "forks_count": 516,
+      "open_issues_count": 509,
+      "network_count": 516,
       "subscribers_count": 20
     }
   },
   "hyperdx": {
     "url": "https://github.com/hyperdxio/hyperdx",
     "github_repo": {
-      "stargazers_count": 8683,
-      "watchers_count": 8683,
-      "forks_count": 282,
-      "open_issues_count": 83,
-      "network_count": 282,
+      "stargazers_count": 8685,
+      "watchers_count": 8685,
+      "forks_count": 283,
+      "open_issues_count": 86,
+      "network_count": 283,
       "subscribers_count": 29
     }
   },
@@ -558,10 +558,10 @@
   "dittofeed": {
     "url": "https://github.com/dittofeed/dittofeed",
     "github_repo": {
-      "stargazers_count": 2398,
-      "watchers_count": 2398,
+      "stargazers_count": 2399,
+      "watchers_count": 2399,
       "forks_count": 262,
-      "open_issues_count": 32,
+      "open_issues_count": 33,
       "network_count": 262,
       "subscribers_count": 27
     }
@@ -569,8 +569,8 @@
   "ballerine": {
     "url": "https://github.com/ballerine-io/ballerine",
     "github_repo": {
-      "stargazers_count": 2216,
-      "watchers_count": 2216,
+      "stargazers_count": 2214,
+      "watchers_count": 2214,
       "forks_count": 238,
       "open_issues_count": 66,
       "network_count": 238,
@@ -580,33 +580,33 @@
   "activepieces": {
     "url": "https://github.com/activepieces/activepieces",
     "github_repo": {
-      "stargazers_count": 15915,
-      "watchers_count": 15915,
-      "forks_count": 2236,
-      "open_issues_count": 370,
-      "network_count": 2236,
+      "stargazers_count": 15934,
+      "watchers_count": 15934,
+      "forks_count": 2239,
+      "open_issues_count": 385,
+      "network_count": 2239,
       "subscribers_count": 99
     }
   },
   "windmill": {
     "url": "https://github.com/windmill-labs/windmill",
     "github_repo": {
-      "stargazers_count": 14130,
-      "watchers_count": 14130,
-      "forks_count": 747,
+      "stargazers_count": 14135,
+      "watchers_count": 14135,
+      "forks_count": 749,
       "open_issues_count": 477,
-      "network_count": 747,
+      "network_count": 749,
       "subscribers_count": 53
     }
   },
   "payload": {
     "url": "https://github.com/payloadcms/payload",
     "github_repo": {
-      "stargazers_count": 36443,
-      "watchers_count": 36443,
-      "forks_count": 2723,
-      "open_issues_count": 708,
-      "network_count": 2723,
+      "stargazers_count": 36474,
+      "watchers_count": 36474,
+      "forks_count": 2727,
+      "open_issues_count": 711,
+      "network_count": 2727,
       "subscribers_count": 140
     }
   },
@@ -636,30 +636,30 @@
   "infisical": {
     "url": "https://github.com/Infisical/infisical",
     "github_repo": {
-      "stargazers_count": 18905,
-      "watchers_count": 18905,
-      "forks_count": 1260,
-      "open_issues_count": 462,
-      "network_count": 1260,
+      "stargazers_count": 18918,
+      "watchers_count": 18918,
+      "forks_count": 1261,
+      "open_issues_count": 460,
+      "network_count": 1261,
       "subscribers_count": 52
     }
   },
   "reflex": {
     "url": "https://github.com/reflex-dev/reflex",
     "github_repo": {
-      "stargazers_count": 23638,
-      "watchers_count": 23638,
-      "forks_count": 1386,
+      "stargazers_count": 23644,
+      "watchers_count": 23644,
+      "forks_count": 1388,
       "open_issues_count": 231,
-      "network_count": 1386,
+      "network_count": 1388,
       "subscribers_count": 171
     }
   },
   "matano": {
     "url": "https://github.com/matanolabs/matano",
     "github_repo": {
-      "stargazers_count": 1593,
-      "watchers_count": 1593,
+      "stargazers_count": 1594,
+      "watchers_count": 1594,
       "forks_count": 115,
       "open_issues_count": 54,
       "network_count": 115,
@@ -669,8 +669,8 @@
   "traceloop": {
     "url": "https://github.com/traceloop/openllmetry",
     "github_repo": {
-      "stargazers_count": 6111,
-      "watchers_count": 6111,
+      "stargazers_count": 6114,
+      "watchers_count": 6114,
       "forks_count": 762,
       "open_issues_count": 241,
       "network_count": 762,
@@ -680,10 +680,10 @@
   "trigger-dev": {
     "url": "https://github.com/triggerdotdev/trigger.dev",
     "github_repo": {
-      "stargazers_count": 11790,
-      "watchers_count": 11790,
+      "stargazers_count": 11796,
+      "watchers_count": 11796,
       "forks_count": 767,
-      "open_issues_count": 126,
+      "open_issues_count": 129,
       "network_count": 767,
       "subscribers_count": 41
     }
@@ -691,10 +691,10 @@
   "nango": {
     "url": "https://github.com/NangoHQ/nango",
     "github_repo": {
-      "stargazers_count": 5457,
-      "watchers_count": 5457,
+      "stargazers_count": 5456,
+      "watchers_count": 5456,
       "forks_count": 507,
-      "open_issues_count": 27,
+      "open_issues_count": 21,
       "network_count": 507,
       "subscribers_count": 27
     }
@@ -703,12 +703,12 @@
   "langfuse": {
     "url": "https://github.com/langfuse/langfuse",
     "github_repo": {
-      "stargazers_count": 13987,
-      "watchers_count": 13987,
-      "forks_count": 1282,
-      "open_issues_count": 352,
-      "network_count": 1282,
-      "subscribers_count": 43
+      "stargazers_count": 14044,
+      "watchers_count": 14044,
+      "forks_count": 1284,
+      "open_issues_count": 357,
+      "network_count": 1284,
+      "subscribers_count": 42
     }
   },
   "tableflow": {
@@ -725,19 +725,19 @@
   "helicone": {
     "url": "https://github.com/Helicone/helicone",
     "github_repo": {
-      "stargazers_count": 4204,
-      "watchers_count": 4204,
-      "forks_count": 410,
-      "open_issues_count": 22,
-      "network_count": 410,
+      "stargazers_count": 4213,
+      "watchers_count": 4213,
+      "forks_count": 411,
+      "open_issues_count": 27,
+      "network_count": 411,
       "subscribers_count": 25
     }
   },
   "defog-ai": {
     "url": "https://github.com/defog-ai/sqlcoder",
     "github_repo": {
-      "stargazers_count": 3833,
-      "watchers_count": 3833,
+      "stargazers_count": 3835,
+      "watchers_count": 3835,
       "forks_count": 257,
       "open_issues_count": 0,
       "network_count": 257,
@@ -769,10 +769,10 @@
   "arroyo": {
     "url": "https://github.com/ArroyoSystems/arroyo",
     "github_repo": {
-      "stargazers_count": 4437,
-      "watchers_count": 4437,
+      "stargazers_count": 4441,
+      "watchers_count": 4441,
       "forks_count": 290,
-      "open_issues_count": 84,
+      "open_issues_count": 85,
       "network_count": 290,
       "subscribers_count": 45
     }
@@ -780,21 +780,21 @@
   "keep": {
     "url": "https://github.com/keephq/keep",
     "github_repo": {
-      "stargazers_count": 10542,
-      "watchers_count": 10542,
-      "forks_count": 1023,
-      "open_issues_count": 351,
-      "network_count": 1023,
+      "stargazers_count": 10549,
+      "watchers_count": 10549,
+      "forks_count": 1026,
+      "open_issues_count": 350,
+      "network_count": 1026,
       "subscribers_count": 35
     }
   },
   "dagworks-inc": {
     "url": "https://github.com/DAGWorks-Inc/hamilton",
     "github_repo": {
-      "stargazers_count": 2198,
-      "watchers_count": 2198,
+      "stargazers_count": 2201,
+      "watchers_count": 2201,
       "forks_count": 151,
-      "open_issues_count": 118,
+      "open_issues_count": 116,
       "network_count": 151,
       "subscribers_count": 20
     }
@@ -805,7 +805,7 @@
       "stargazers_count": 4203,
       "watchers_count": 4203,
       "forks_count": 105,
-      "open_issues_count": 65,
+      "open_issues_count": 66,
       "network_count": 105,
       "subscribers_count": 19
     }
@@ -838,7 +838,7 @@
       "stargazers_count": 3204,
       "watchers_count": 3204,
       "forks_count": 237,
-      "open_issues_count": 308,
+      "open_issues_count": 303,
       "network_count": 237,
       "subscribers_count": 21
     }
@@ -846,19 +846,19 @@
   "vocode": {
     "url": "https://github.com/vocodedev/vocode-core",
     "github_repo": {
-      "stargazers_count": 3385,
-      "watchers_count": 3385,
-      "forks_count": 608,
+      "stargazers_count": 3387,
+      "watchers_count": 3387,
+      "forks_count": 610,
       "open_issues_count": 15,
-      "network_count": 608,
+      "network_count": 610,
       "subscribers_count": 48
     }
   },
   "highlight-io": {
     "url": "https://github.com/highlight/highlight",
     "github_repo": {
-      "stargazers_count": 8476,
-      "watchers_count": 8476,
+      "stargazers_count": 8478,
+      "watchers_count": 8478,
       "forks_count": 435,
       "open_issues_count": 384,
       "network_count": 435,
@@ -868,8 +868,8 @@
   "moonrepo": {
     "url": "https://github.com/moonrepo/moon",
     "github_repo": {
-      "stargazers_count": 3290,
-      "watchers_count": 3290,
+      "stargazers_count": 3291,
+      "watchers_count": 3291,
       "forks_count": 181,
       "open_issues_count": 90,
       "network_count": 181,
@@ -882,7 +882,7 @@
       "stargazers_count": 661,
       "watchers_count": 661,
       "forks_count": 38,
-      "open_issues_count": 10,
+      "open_issues_count": 11,
       "network_count": 38,
       "subscribers_count": 10
     }
@@ -890,10 +890,10 @@
   "peerdb": {
     "url": "https://github.com/PeerDB-io/peerdb",
     "github_repo": {
-      "stargazers_count": 2605,
-      "watchers_count": 2605,
+      "stargazers_count": 2606,
+      "watchers_count": 2606,
       "forks_count": 123,
-      "open_issues_count": 182,
+      "open_issues_count": 180,
       "network_count": 123,
       "subscribers_count": 19
     }
@@ -901,52 +901,52 @@
   "reworkd": {
     "url": "https://github.com/reworkd/AgentGPT",
     "github_repo": {
-      "stargazers_count": 34545,
-      "watchers_count": 34545,
-      "forks_count": 9447,
+      "stargazers_count": 34562,
+      "watchers_count": 34562,
+      "forks_count": 9444,
       "open_issues_count": 211,
-      "network_count": 9447,
+      "network_count": 9444,
       "subscribers_count": 326
     }
   },
   "twenty": {
     "url": "https://github.com/twentyhq/twenty",
     "github_repo": {
-      "stargazers_count": 34299,
-      "watchers_count": 34299,
-      "forks_count": 3858,
+      "stargazers_count": 34355,
+      "watchers_count": 34355,
+      "forks_count": 3857,
       "open_issues_count": 190,
-      "network_count": 3858,
+      "network_count": 3857,
       "subscribers_count": 157
     }
   },
   "skyvern": {
     "url": "https://github.com/Skyvern-AI/skyvern",
     "github_repo": {
-      "stargazers_count": 13881,
-      "watchers_count": 13881,
-      "forks_count": 1146,
-      "open_issues_count": 132,
-      "network_count": 1146,
+      "stargazers_count": 13891,
+      "watchers_count": 13891,
+      "forks_count": 1145,
+      "open_issues_count": 134,
+      "network_count": 1145,
       "subscribers_count": 78
     }
   },
   "refine": {
     "url": "https://github.com/refinedev/refine",
     "github_repo": {
-      "stargazers_count": 31686,
-      "watchers_count": 31686,
-      "forks_count": 2598,
-      "open_issues_count": 34,
-      "network_count": 2598,
+      "stargazers_count": 31696,
+      "watchers_count": 31696,
+      "forks_count": 2602,
+      "open_issues_count": 39,
+      "network_count": 2602,
       "subscribers_count": 140
     }
   },
   "revideo": {
     "url": "https://github.com/redotvideo/revideo",
     "github_repo": {
-      "stargazers_count": 3356,
-      "watchers_count": 3356,
+      "stargazers_count": 3360,
+      "watchers_count": 3360,
       "forks_count": 148,
       "open_issues_count": 50,
       "network_count": 148,
@@ -956,19 +956,19 @@
   "continue": {
     "url": "https://github.com/continuedev/continue",
     "github_repo": {
-      "stargazers_count": 27805,
-      "watchers_count": 27805,
-      "forks_count": 3166,
-      "open_issues_count": 999,
-      "network_count": 3166,
-      "subscribers_count": 125
+      "stargazers_count": 27837,
+      "watchers_count": 27837,
+      "forks_count": 3179,
+      "open_issues_count": 1010,
+      "network_count": 3179,
+      "subscribers_count": 124
     }
   },
   "khoj": {
     "url": "https://github.com/khoj-ai/khoj",
     "github_repo": {
-      "stargazers_count": 30583,
-      "watchers_count": 30583,
+      "stargazers_count": 30591,
+      "watchers_count": 30591,
       "forks_count": 1748,
       "open_issues_count": 82,
       "network_count": 1748,
@@ -989,22 +989,22 @@
   "paradedb": {
     "url": "https://github.com/paradedb/paradedb",
     "github_repo": {
-      "stargazers_count": 7491,
-      "watchers_count": 7491,
-      "forks_count": 256,
+      "stargazers_count": 7498,
+      "watchers_count": 7498,
+      "forks_count": 257,
       "open_issues_count": 75,
-      "network_count": 256,
-      "subscribers_count": 41
+      "network_count": 257,
+      "subscribers_count": 42
     }
   },
   "flowiseai": {
     "url": "https://github.com/FlowiseAI/Flowise",
     "github_repo": {
-      "stargazers_count": 41816,
-      "watchers_count": 41816,
-      "forks_count": 21446,
-      "open_issues_count": 664,
-      "network_count": 21446,
+      "stargazers_count": 41852,
+      "watchers_count": 41852,
+      "forks_count": 21466,
+      "open_issues_count": 669,
+      "network_count": 21466,
       "subscribers_count": 316
     }
   },
@@ -1044,8 +1044,8 @@
   "openpipe": {
     "url": "https://github.com/OpenPipe/OpenPipe",
     "github_repo": {
-      "stargazers_count": 2665,
-      "watchers_count": 2665,
+      "stargazers_count": 2667,
+      "watchers_count": 2667,
       "forks_count": 150,
       "open_issues_count": 6,
       "network_count": 150,
@@ -1077,19 +1077,19 @@
   "ragas": {
     "url": "https://github.com/explodinggradients/ragas",
     "github_repo": {
-      "stargazers_count": 10009,
-      "watchers_count": 10009,
-      "forks_count": 986,
-      "open_issues_count": 409,
-      "network_count": 986,
+      "stargazers_count": 10025,
+      "watchers_count": 10025,
+      "forks_count": 988,
+      "open_issues_count": 416,
+      "network_count": 988,
       "subscribers_count": 42
     }
   },
   "superagent": {
     "url": "https://github.com/superagent-ai/superagent",
     "github_repo": {
-      "stargazers_count": 6039,
-      "watchers_count": 6039,
+      "stargazers_count": 6042,
+      "watchers_count": 6042,
       "forks_count": 915,
       "open_issues_count": 64,
       "network_count": 915,
@@ -1101,9 +1101,9 @@
     "github_repo": {
       "stargazers_count": 2376,
       "watchers_count": 2376,
-      "forks_count": 204,
+      "forks_count": 205,
       "open_issues_count": 0,
-      "network_count": 204,
+      "network_count": 205,
       "subscribers_count": 14
     }
   },
@@ -1121,11 +1121,11 @@
   "hatchet-2": {
     "url": "https://github.com/hatchet-dev/hatchet",
     "github_repo": {
-      "stargazers_count": 5846,
-      "watchers_count": 5846,
-      "forks_count": 246,
-      "open_issues_count": 86,
-      "network_count": 246,
+      "stargazers_count": 5851,
+      "watchers_count": 5851,
+      "forks_count": 247,
+      "open_issues_count": 85,
+      "network_count": 247,
       "subscribers_count": 20
     }
   },
