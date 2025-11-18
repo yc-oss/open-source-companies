@@ -106,7 +106,7 @@ for (const company of companies.sort((a, b) => {
     repository?.github_repo?.stargazers_count && repository.url
       ? `${repository.github_repo.stargazers_count.toLocaleString(
           "en-US"
-        )} <img alt="" src="https://api.star-history.com/svg?repos=${new URL(
+        )}<br><img alt="" src="https://api.star-history.com/svg?repos=${new URL(
           repository.url
         ).pathname.replace("/", "")}" height="32">`
       : ""
