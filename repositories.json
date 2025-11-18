@@ -54,6 +54,17 @@
       "subscribers_count": 6
     }
   },
+  "cactus": {
+    "url": "https://github.com/cactus-compute/cactus",
+    "github_repo": {
+      "stargazers_count": 3738,
+      "watchers_count": 3738,
+      "forks_count": 219,
+      "open_issues_count": 44,
+      "network_count": 219,
+      "subscribers_count": 33
+    }
+  },
   "chaos-genius": {
     "url": "https://github.com/chaos-genius/chaos_genius",
     "github_repo": {
@@ -63,6 +74,28 @@
       "open_issues_count": 75,
       "network_count": 87,
       "subscribers_count": 12
+    }
+  },
+  "confident-ai": {
+    "url": "https://github.com/confident-ai/deepeval",
+    "github_repo": {
+      "stargazers_count": 12220,
+      "watchers_count": 12220,
+      "forks_count": 1072,
+      "open_issues_count": 222,
+      "network_count": 1072,
+      "subscribers_count": 51
+    }
+  },
+  "cua": {
+    "url": "https://github.com/trycua/cua",
+    "github_repo": {
+      "stargazers_count": 11283,
+      "watchers_count": 11283,
+      "forks_count": 651,
+      "open_issues_count": 76,
+      "network_count": 651,
+      "subscribers_count": 52
     }
   },
   "daily": {
@@ -371,6 +404,28 @@
       "open_issues_count": 229,
       "network_count": 10217,
       "subscribers_count": 1282
+    }
+  },
+  "epicenter": {
+    "url": "https://github.com/EpicenterHQ/epicenter",
+    "github_repo": {
+      "stargazers_count": 3543,
+      "watchers_count": 3543,
+      "forks_count": 222,
+      "open_issues_count": 159,
+      "network_count": 222,
+      "subscribers_count": 12
+    }
+  },
+  "expected-parrot": {
+    "url": "https://github.com/expectedparrot/edsl",
+    "github_repo": {
+      "stargazers_count": 354,
+      "watchers_count": 354,
+      "forks_count": 37,
+      "open_issues_count": 167,
+      "network_count": 37,
+      "subscribers_count": 5
     }
   },
   "pipelinedb": {
