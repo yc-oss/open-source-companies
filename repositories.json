@@ -121,14 +121,14 @@
     }
   },
   "lancedb": {
-    "url": "https://github.com/lance-format/lance",
+    "url": "https://github.com/lancedb/lancedb",
     "github_repo": {
-      "stargazers_count": 5707,
-      "watchers_count": 5707,
-      "forks_count": 477,
-      "open_issues_count": 923,
-      "network_count": 477,
-      "subscribers_count": 48
+      "stargazers_count": 7993,
+      "watchers_count": 7993,
+      "forks_count": 646,
+      "open_issues_count": 511,
+      "network_count": 646,
+      "subscribers_count": 41
     }
   },
   "litellm": {
