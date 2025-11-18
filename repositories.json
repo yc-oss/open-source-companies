@@ -43,6 +43,17 @@
       "subscribers_count": 578
     }
   },
+  "botcity": {
+    "url": "https://github.com/botcity-dev/botcity-framework-core-python",
+    "github_repo": {
+      "stargazers_count": 138,
+      "watchers_count": 138,
+      "forks_count": 23,
+      "open_issues_count": 5,
+      "network_count": 23,
+      "subscribers_count": 6
+    }
+  },
   "chaos-genius": {
     "url": "https://github.com/chaos-genius/chaos_genius",
     "github_repo": {
@@ -76,6 +87,17 @@
       "subscribers_count": 85
     }
   },
+  "freestyle": {
+    "url": "https://github.com/freestyle-sh/Adorable",
+    "github_repo": {
+      "stargazers_count": 592,
+      "watchers_count": 592,
+      "forks_count": 250,
+      "open_issues_count": 12,
+      "network_count": 250,
+      "subscribers_count": 11
+    }
+  },
   "firecrawl": {
     "url": "https://github.com/firecrawl/firecrawl",
     "github_repo": {
@@ -96,6 +118,17 @@
       "open_issues_count": 10,
       "network_count": 132,
       "subscribers_count": 21
+    }
+  },
+  "helixdb": {
+    "url": "https://github.com/HelixDB/helix-db",
+    "github_repo": {
+      "stargazers_count": 3332,
+      "watchers_count": 3332,
+      "forks_count": 158,
+      "open_issues_count": 42,
+      "network_count": 158,
+      "subscribers_count": 19
     }
   },
   "jitsu": {
@@ -142,6 +175,28 @@
       "subscribers_count": 149
     }
   },
+  "lingodotdev": {
+    "url": "https://github.com/lingodotdev/lingo.dev",
+    "github_repo": {
+      "stargazers_count": 4968,
+      "watchers_count": 4968,
+      "forks_count": 666,
+      "open_issues_count": 231,
+      "network_count": 666,
+      "subscribers_count": 10
+    }
+  },
+  "llamafarm": {
+    "url": "https://github.com/llama-farm/llamafarm",
+    "github_repo": {
+      "stargazers_count": 642,
+      "watchers_count": 642,
+      "forks_count": 28,
+      "open_issues_count": 59,
+      "network_count": 28,
+      "subscribers_count": 6
+    }
+  },
   "mem0": {
     "url": "https://github.com/mem0ai/mem0",
     "github_repo": {
@@ -162,6 +217,17 @@
       "open_issues_count": 0,
       "network_count": 3,
       "subscribers_count": 3
+    }
+  },
+  "onyx": {
+    "url": "https://github.com/Onyx-app/ONYX",
+    "github_repo": {
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "network_count": 0,
+      "subscribers_count": 0
     }
   },
   "replicate": {
@@ -363,7 +429,17 @@
     }
   },
   "tipe": {},
-  "codestream": {},
+  "codestream": {
+    "url": "https://github.com/TeamCodeStream/codestream-server",
+    "github_repo": {
+      "stargazers_count": 64,
+      "watchers_count": 64,
+      "forks_count": 36,
+      "open_issues_count": 8,
+      "network_count": 36,
+      "subscribers_count": 12
+    }
+  },
   "activeloop": {
     "url": "https://github.com/activeloopai/deeplake",
     "github_repo": {
@@ -430,7 +506,17 @@
       "subscribers_count": 76
     }
   },
-  "data-mechanics": {},
+  "data-mechanics": {
+    "url": "https://github.com/datamechanics/datamechanics_airflow_plugin",
+    "github_repo": {
+      "stargazers_count": 3,
+      "watchers_count": 3,
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "network_count": 3,
+      "subscribers_count": 1
+    }
+  },
   "wasmer": {
     "url": "https://github.com/wasmerio/wasmer",
     "github_repo": {
