@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "update": "deno run --allow-net --allow-env --allow-read --allow-write generate-readme.ts",
+    "check": "deno fmt --check generate-readme.ts README.md .github && deno lint generate-readme.ts && deno check generate-readme.ts"
+  }
+}

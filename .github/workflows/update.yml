@@ -2,7 +2,6 @@ name: Update README
 
 permissions:
   contents: write
-  pages: write
 
 on:
   schedule:
@@ -14,33 +13,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6.0.2
 
       - name: Setup Deno
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2.0.4
         with:
-          deno-version: v1.x
+          deno-version: v2.7.14
 
-      - name: Run fetcher script
-        run: deno run --allow-net --allow-env --allow-read --allow-write generate-readme.ts
+      - name: Run update script
+        run: deno task update
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SERPER_TOKEN: ${{ secrets.SERPER_TOKEN }}
 
-      - name: Format README.md
-        run: deno fmt README.md
+      - name: Format generated files
+        run: deno fmt README.md repositories.json
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m ":card_file_box: Update APIs: $(date +'%Y-%m-%d')" || exit 0
+          git commit -m ":card_file_box: Update README: $(date +'%Y-%m-%d')" || exit 0
           git push
-
-      - name: Publish to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
-          force_orphan: true
