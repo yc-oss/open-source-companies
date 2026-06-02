@@ -107,7 +107,6 @@ for (const company of companies) {
           url: undefined,
           github_repo: undefined,
         };
-        repository = repositories[company.slug];
         continue;
       }
       throw new Error(
