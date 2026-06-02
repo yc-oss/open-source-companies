@@ -102,7 +102,7 @@ for (const company of companies) {
         console.warn(
           `GitHub repo not found for ${company.slug} (${repository.url}); removing stale repository entry.`,
         );
-        repositories[company.slug] = {};
+        delete repositories[company.slug];
         continue;
       }
       throw new Error(
