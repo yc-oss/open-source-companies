@@ -98,6 +98,18 @@ for (const company of companies) {
     });
     if (!res.ok) {
       const body = await res.text();
+      if (res.status === 404) {
+        console.warn(
+          `GitHub repo not found for ${company.slug} (${repository.url}); removing stale repository entry.`,
+        );
+        repositories[company.slug] = {
+          ...repository,
+          url: undefined,
+          github_repo: undefined,
+        };
+        repository = repositories[company.slug];
+        continue;
+      }
       throw new Error(
         `GitHub repo lookup failed for ${company.slug} (${repository.url}): ${res.status} ${body}`,
       );
