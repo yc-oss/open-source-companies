@@ -1,30 +1,10 @@
 import _repositories from "./repositories.json" with { type: "json" };
-
-type Company = {
-  slug: string;
-  name: string;
-  one_liner: string;
-  batch: string;
-  api: string;
-  website: string;
-  small_logo_thumb_url: string;
-  stars_count?: number;
-};
-
-type GitHubRepo = {
-  html_url?: string;
-  stargazers_count?: number;
-  watchers_count?: number;
-  forks_count?: number;
-  open_issues_count?: number;
-  network_count?: number;
-  subscribers_count?: number;
-};
-
-type Repository = {
-  url?: string;
-  github_repo?: GitHubRepo;
-};
+import {
+  type Company,
+  type GitHubRepo,
+  pruneStaleRepositories,
+  type Repository,
+} from "./repositories.ts";
 
 const companiesResponse = await fetch(
   "https://yc-oss.github.io/api/tags/open-source.json",
@@ -36,6 +16,12 @@ if (!companiesResponse.ok) {
 }
 const companies = await companiesResponse.json() as Company[];
 const repositories = _repositories as Record<string, Repository>;
+
+for (const slug of pruneStaleRepositories(repositories, companies)) {
+  console.warn(
+    `Removing stale repository entry for ${slug}; company is no longer in YC OSS API.`,
+  );
+}
 
 const githubToken = Deno.env.get("GITHUB_TOKEN");
 const serperToken = Deno.env.get("SERPER_TOKEN");
