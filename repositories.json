@@ -1684,5 +1684,16 @@
     }
   },
   "mistle": {},
-  "random-labs": {}
+  "random-labs": {},
+  "screenpipe": {
+    "url": "https://github.com/screenpipe/screenpipe",
+    "github_repo": {
+      "stargazers_count": 19820,
+      "watchers_count": 19820,
+      "forks_count": 1933,
+      "open_issues_count": 117,
+      "network_count": 1933,
+      "subscribers_count": 106
+    }
+  }
 }
