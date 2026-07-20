@@ -1705,7 +1705,7 @@
       "subscribers_count": 0
     }
   },
-  "kaelio":  {
+  "kaelio": {
     "url": "https://github.com/Kaelio/ktx",
     "github_repo": {
       "stargazers_count": 1504,
@@ -1739,7 +1739,7 @@
     }
   },
   "unify": {
-    "url" : "https://github.com/unifyai/unify",
+    "url": "https://github.com/unifyai/unify",
     "github_repo": {
       "stargazers_count": 9,
       "watchers_count": 9,
@@ -1749,7 +1749,5 @@
       "subscribers_count": 0
     }
   },
-  "random-labs": {
-
-  }
+  "random-labs": {}
 }
