@@ -1694,6 +1694,60 @@
       "subscribers_count": 10
     }
   },
-  "mistle": {},
+  "mistle": {
+    "url": "https://github.com/mistlehq/mistle",
+    "github_repo": {
+      "stargazers_count": 82,
+      "watchers_count": 82,
+      "forks_count": 9,
+      "open_issues_count": 2,
+      "network_count": 9,
+      "subscribers_count": 0
+    }
+  },
+  "kaelio": {
+    "url": "https://github.com/Kaelio/ktx",
+    "github_repo": {
+      "stargazers_count": 1504,
+      "watchers_count": 1504,
+      "forks_count": 95,
+      "open_issues_count": 18,
+      "network_count": 95,
+      "subscribers_count": 5
+    }
+  },
+  "opencode": {
+    "url": "https://github.com/anomalyco/opencode",
+    "github_repo": {
+      "stargazers_count": 187644,
+      "watchers_count": 187644,
+      "forks_count": 23599,
+      "open_issues_count": 3674,
+      "network_count": 23599,
+      "subscribers_count": 726
+    }
+  },
+  "robocurve": {
+    "url": "https://github.com/robocurve/inspect-robots",
+    "github_repo": {
+      "stargazers_count": 9,
+      "watchers_count": 9,
+      "forks_count": 6,
+      "open_issues_count": 7,
+      "network_count": 6,
+      "subscribers_count": 0
+    }
+  },
+  "unify": {
+    "url": "https://github.com/unifyai/unify",
+    "github_repo": {
+      "stargazers_count": 9,
+      "watchers_count": 9,
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "network_count": 1,
+      "subscribers_count": 0
+    }
+  },
   "random-labs": {}
 }
