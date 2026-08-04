@@ -1,6 +1,6 @@
 {
   "tasks": {
     "update": "deno run --allow-net --allow-env --allow-read --allow-write generate-readme.ts",
-    "check": "deno fmt --check generate-readme.ts repositories.ts repositories_test.ts README.md .github && deno lint generate-readme.ts repositories.ts repositories_test.ts && deno check generate-readme.ts repositories.ts repositories_test.ts && deno test repositories_test.ts"
+    "check": "deno fmt --check generate-readme.ts parallel-search.ts parallel-search_test.ts repositories.ts repositories_test.ts README.md .github && deno lint generate-readme.ts parallel-search.ts parallel-search_test.ts repositories.ts repositories_test.ts && deno check generate-readme.ts parallel-search.ts parallel-search_test.ts repositories.ts repositories_test.ts && deno test parallel-search_test.ts repositories_test.ts"
   }
 }

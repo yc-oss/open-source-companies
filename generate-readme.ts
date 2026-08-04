@@ -6,6 +6,7 @@ import {
   pruneStaleRepositories,
   type Repository,
 } from "./repositories.ts";
+import { searchWithParallel } from "./parallel-search.ts";
 
 const companiesResponse = await fetch(
   "https://yc-oss.github.io/api/tags/open-source.json",
@@ -25,7 +26,7 @@ for (const slug of pruneStaleRepositories(repositories, companies)) {
 }
 
 const githubToken = Deno.env.get("GITHUB_TOKEN");
-const serperToken = Deno.env.get("SERPER_TOKEN");
+const parallelSessionId = crypto.randomUUID();
 
 const readme = await Deno.readTextFile("README.md");
 let text = `<!--start generated readme-->\n`;
@@ -35,42 +36,32 @@ for (const company of companies) {
   let repository = repositories[company.slug];
 
   // Try and find the GitHub repository for this company.
-  if (needsRepositoryDiscovery(repository) && githubToken && serperToken) {
-    console.log(`Searching for ${company.name} on GitHub via Google`);
-    const res = await fetch("https://google.serper.dev/search", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "X-Api-Key": serperToken,
-      },
-      body: JSON.stringify({
-        q: `site:github.com ${company.name} ${company.one_liner}`,
-      }),
-      redirect: "follow",
+  if (needsRepositoryDiscovery(repository) && githubToken) {
+    console.log(`Searching for ${company.name} on GitHub via Parallel`);
+    const results = await searchWithParallel({
+      objective:
+        `Find the official open-source GitHub repository for ${company.name}, described as: ${company.one_liner}`,
+      searchQueries: [`${company.name} GitHub repository`],
+      sessionId: parallelSessionId,
     });
-    if (!res.ok) {
-      throw new Error(
-        `Serper search failed for ${company.slug}: ${res.status}`,
-      );
-    }
 
-    const json = (await res.json()) as { organic?: { link: string }[] };
     // Find the first GitHub repository https://github.com/{owner}/{github_repo}
-    const result = json.organic?.find((result) =>
-      result.link.includes("github.com")
-    );
-    if (result) {
-      console.log(`Found ${result.link}`);
-      const parts = new URL(result.link).pathname.split("/");
-      if (parts.length >= 3) {
-        repositories[company.slug] = {
-          url: `https://github.com/${parts[1]}/${parts[2]}`,
-        };
-        console.log(
-          `Added ${repositories[company.slug].url} to repositories.json`,
-        );
-        repository = repositories[company.slug];
-      } else console.log(`Parts ${parts} for URL ${result.link}`);
+    const repositoryUrl = results.map(({ url }) => {
+      const resultUrl = new URL(url);
+      if (!["github.com", "www.github.com"].includes(resultUrl.hostname)) {
+        return undefined;
+      }
+
+      const [, owner, repo] = resultUrl.pathname.split("/");
+      return owner && repo ? `https://github.com/${owner}/${repo}` : undefined;
+    }).find((url) => url !== undefined);
+    if (repositoryUrl) {
+      console.log(`Found ${repositoryUrl}`);
+      repositories[company.slug] = { url: repositoryUrl };
+      console.log(
+        `Added ${repositories[company.slug].url} to repositories.json`,
+      );
+      repository = repositories[company.slug];
     }
   }
 
