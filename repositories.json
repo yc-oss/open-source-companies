@@ -1749,5 +1749,82 @@
       "subscribers_count": 0
     }
   },
-  "random-labs": {}
+  "random-labs": {},
+  "s2-dev": {
+    "url": "https://github.com/s2-streamstore/s2",
+    "github_repo": {
+      "stargazers_count": 572,
+      "watchers_count": 572,
+      "forks_count": 27,
+      "open_issues_count": 21,
+      "network_count": 27,
+      "subscribers_count": 5
+    }
+  },
+  "zenbu-2": {
+    "url": "https://github.com/zenbu-labs/zenbu-release",
+    "github_repo": {
+      "stargazers_count": 16,
+      "watchers_count": 16,
+      "forks_count": 5,
+      "open_issues_count": 3,
+      "network_count": 5,
+      "subscribers_count": 0
+    }
+  },
+  "superlog": {
+    "url": "https://github.com/superloglabs/superlog",
+    "github_repo": {
+      "stargazers_count": 1221,
+      "watchers_count": 1221,
+      "forks_count": 90,
+      "open_issues_count": 76,
+      "network_count": 90,
+      "subscribers_count": 4
+    }
+  },
+  "understudy-labs": {
+    "url": "https://github.com/understudylabs/understudy-agent-tools",
+    "github_repo": {
+      "stargazers_count": 10,
+      "watchers_count": 10,
+      "forks_count": 5,
+      "open_issues_count": 64,
+      "network_count": 5,
+      "subscribers_count": 0
+    }
+  },
+  "graphify-labs": {
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "github_repo": {
+      "stargazers_count": 102023,
+      "watchers_count": 102023,
+      "forks_count": 9911,
+      "open_issues_count": 796,
+      "network_count": 9911,
+      "subscribers_count": 346
+    }
+  },
+  "vendo": {
+    "url": "https://github.com/runvendo/vendo",
+    "github_repo": {
+      "stargazers_count": 363,
+      "watchers_count": 363,
+      "forks_count": 48,
+      "open_issues_count": 41,
+      "network_count": 48,
+      "subscribers_count": 0
+    }
+  },
+  "tracer": {
+    "url": "https://github.com/adrida/tracer",
+    "github_repo": {
+      "stargazers_count": 1026,
+      "watchers_count": 1026,
+      "forks_count": 70,
+      "open_issues_count": 39,
+      "network_count": 70,
+      "subscribers_count": 6
+    }
+  }
 }
