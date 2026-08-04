@@ -2,6 +2,7 @@ import _repositories from "./repositories.json" with { type: "json" };
 import {
   type Company,
   type GitHubRepo,
+  needsRepositoryDiscovery,
   pruneStaleRepositories,
   type Repository,
 } from "./repositories.ts";
@@ -34,7 +35,7 @@ for (const company of companies) {
   let repository = repositories[company.slug];
 
   // Try and find the GitHub repository for this company.
-  if (!repository && githubToken && serperToken) {
+  if (needsRepositoryDiscovery(repository) && githubToken && serperToken) {
     console.log(`Searching for ${company.name} on GitHub via Google`);
     const res = await fetch("https://google.serper.dev/search", {
       method: "POST",
