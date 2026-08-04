@@ -24,7 +24,6 @@ jobs:
         run: deno task update
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SERPER_TOKEN: ${{ secrets.SERPER_TOKEN }}
 
       - name: Format generated files
         run: deno fmt README.md repositories.json
