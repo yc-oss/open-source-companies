@@ -1,10 +1,14 @@
 import _repositories from "./repositories.json" with { type: "json" };
 import {
   type Company,
+  formatRepoCell,
+  formatStarsCell,
   type GitHubRepo,
+  githubRepoApiUrl,
   needsRepositoryDiscovery,
   pruneStaleRepositories,
   type Repository,
+  selectGitHubRepositoryUrl,
 } from "./repositories.ts";
 import { searchWithParallel } from "./parallel-search.ts";
 
@@ -45,16 +49,7 @@ for (const company of companies) {
       sessionId: parallelSessionId,
     });
 
-    // Find the first GitHub repository https://github.com/{owner}/{github_repo}
-    const repositoryUrl = results.map(({ url }) => {
-      const resultUrl = new URL(url);
-      if (!["github.com", "www.github.com"].includes(resultUrl.hostname)) {
-        return undefined;
-      }
-
-      const [, owner, repo] = resultUrl.pathname.split("/");
-      return owner && repo ? `https://github.com/${owner}/${repo}` : undefined;
-    }).find((url) => url !== undefined);
+    const repositoryUrl = selectGitHubRepositoryUrl(results);
     if (repositoryUrl) {
       console.log(`Found ${repositoryUrl}`);
       repositories[company.slug] = { url: repositoryUrl };
@@ -66,10 +61,10 @@ for (const company of companies) {
   }
 
   // Find counts for repository if it exists.
-  if (repository?.url && githubToken) {
-    const githubApiUrl = `https://api.github.com/repos${
-      new URL(repository.url).pathname
-    }`;
+  const githubApiUrl = repository?.url
+    ? githubRepoApiUrl(repository.url)
+    : undefined;
+  if (githubApiUrl && githubToken && repository) {
     console.log(`Fetching GitHub repo details for ${githubApiUrl}`);
     const res = await fetch(githubApiUrl, {
       headers: { Authorization: `Bearer ${githubToken}` },
@@ -118,20 +113,8 @@ for (
   const repository = repositories[company.slug];
   text +=
     `| <img alt="" src="${company.small_logo_thumb_url}" height="32"> | ${company.name} | ${company.batch} | [API](${company.api}) | [Website](${company.website}) | ${
-      repository?.url
-        ? `[${
-          new URL(repository.url).pathname.replace("/", "")
-        }](${repository.url})`
-        : ""
-    } | ${
-      repository?.github_repo?.stargazers_count && repository.url
-        ? `${
-          repository.github_repo.stargazers_count.toLocaleString("en-US")
-        } <img alt="" src="https://api.star-history.com/svg?repos=${
-          new URL(repository.url).pathname.replace("/", "")
-        }" height="32">`
-        : ""
-    } \n`;
+      formatRepoCell(repository)
+    } | ${formatStarsCell(repository)} \n`;
 }
 text += `<!--end generated readme-->\n`;
 
