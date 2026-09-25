@@ -3,8 +3,8 @@
 This repository contains a list of open source startups funded by Y Combinator
 that have publicly launched on the Y Combinator website. It is sourced from
 [yc-oss.github.io/api/tags/open-source.json](https://yc-oss.github.io/api/tags/open-source.json).
-
-In the near future, we will include the link to their repositories.
+Where a GitHub repository has been identified, its link and star count appear in
+the table below.
 
 ## FAQs
 
@@ -18,7 +18,23 @@ The companies listed on this page are:
 - Have the "Open source" tag attached to their company
 
 If you have all the above conditions met, your company should be listed here.
-This data is updated every day.
+This data is updated every day. Adding a repository to `repositories.json` does
+not add a company to the YC source list.
+
+</details>
+
+<details>
+  <summary>How can I add or correct a repository link?</summary>
+
+Check that the company appears in the
+[YC open-source API](https://yc-oss.github.io/api/tags/open-source.json), then
+add or update its slug in [`repositories.json`](repositories.json) with the
+canonical GitHub repository URL. Include a link showing that the repository
+belongs to the company (for example, the company's website or the repository's
+README). The daily update refreshes repository statistics and the table from
+that mapping; edit neither the generated table nor the cached statistics by
+hand. Before opening a pull request, run `deno fmt --check repositories.json`
+and `deno task check`.
 
 </details>
 
